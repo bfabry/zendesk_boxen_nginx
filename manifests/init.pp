@@ -51,7 +51,7 @@ class nginx {
   }
 
   package { 'boxen/brews/nginx':
-    ensure => '1.4.2',
+    ensure => '1.4.2-boxen1',
     notify => Service['dev.nginx']
   }
 
